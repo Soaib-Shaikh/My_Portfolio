@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-BoldItalic.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-ExtraBold.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-Italic.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/font/OpenSansCondensed-Light.woff2') format('woff2'),
+        url('fonts/font/OpenSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header-section */
+
+.my-logo {
+    width: 100%;
+    height: 80px;
+}
+
+ul,li a {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.navbar-nav .home-menu {
+    color: #DDB166;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color:#DDB166;
+}
+
+.nav-link:focus {
+    color:#DDB166;
+}
+
+
+.navbar-toggler {
+    border: 2px solid white;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 54px;
+    padding: 0;
+}
+
+.navbar-toggler:hover {
+    color: white;
+}
+
+.line {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: white;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.btn-close {
+    border: 2px solid white;   
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size:14px;
+    border-radius: 50%;
+}
+
+.btn-close:focus {
+    color: white;
+}
+
+.ri-close-line {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.offcanvas {
+    background-color: #000000;
+}
+
+/* banner-section */
+
+.banner {
+    background-image: url(../images/hero-2.jpg);
+    background-size: cover;
+    background-position: center;   
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed, scroll;
+
+}
+
+.sub-title {
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+
+p {
+    color: #aaaaaa;
+    margin: 0 0 18px 0;
+    line-height: 1.75px;
+}
+
+.about {
+    line-height: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.banner-content {
+    margin-left: 30px;
+}
+
+
+.link-button {
+    color: white;
+    background: #222222;
+    width: 175px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #222222;
+    border-radius: 30px;
+}
+
+.arrow-icon {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* about-me-section */
+
+.about-me {
+    background-color: #222222;
+    padding: 50px 20px;
+}
+
+
+.about-head {
+    font-weight: 700;
+    font-size: 80px;
+    color: #DDB166;
+    word-spacing: 30px;
+}
+
+.about-para {
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.information-box {
+    background-color: #171717;
+    padding: 20px;
+    border: 1px solid #171717;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 120px;
+}
+
+.info-icon {
+    color: #DDB166;
+    font-size: 35px;
+    
+}
+
+.info-title {
+    color: #DDB166;
+    font-size: 15px;
+}
+
+.info-text {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.info-text:hover {
+    color: #DDB166;
+}
+
+
+.btn {
+    border: 1px solid #DDB166;
+    border-radius: 10px;
+    background-color: #DDB166;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    margin: auto;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.btn:hover {
+    background-color: #DDB166;
+}
+
+.col-3 {
+    width: 24%;
+}
+
+/* education-section */
+
+.education {
+    background-color: #171717;
+    padding: 50px 20px;
+}
+
+.education-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.education-area {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.education-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding: 30px 0 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.degree {
+    font-size: 16px;
+}
+
+.place {
+    color:#aaaaaa;
+}
+
+.year {
+    color: #aaaaaa;
+}
+
+/* skills-section */
+
+.skills {
+    background-color: #222222;
+    padding: 50px 20px;
+}
+
+.title {
+    color: #DDB166;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.skill-item {
+    padding: 45px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+
+.skill-icon {
+    margin-bottom: 25px;
+}
+
+.skill-count {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.skill-name {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.css-icon {
+    width: 100%;
+    height: 65px;
+}
+
+.c-icon {
+    width: 100%;
+    height: 65px;
+}
+
+/* project-section */
+
+.project {
+    background-color: #171717;
+    padding: 50px 20px;
+}
+
+.pro-title {
+    color:#DDB166 ;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #222222;
+}
+
+.card-text {
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.project-btn {
+    border:1px solid #DDB166;
+    background-color: #DDB166;
+    border-radius: 10px;
+    color: #171717;
+    margin: auto;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+
+}
+
+/* contact-us-section */
+
+.contact-us {
+    background-color: #222222;
+    padding: 50px 20px;
+}
+
+.big-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.comment-respond {
+    padding: 60px;
+    background-color: #171717;
+    border-radius: 20px;
+}
+
+.comment-title {
+    color: #DDB166;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    height: 60px;
+    padding: 0 30px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #222222;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    padding-right: 45px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    background-color:#222222 ;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+    color:#aaaaaa;
+}
+
+.form-control-1 {
+    width: 100%;
+    min-height: 200px;
+    padding: 0 30px;
+    color: white;
+    border: none;
+    background-color: #222222;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300; 
+    outline: none;     
+}
+
+.form-control-1:focus {
+    background-color:#222222 ;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+
+.form-control-1::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+
+.link-btn {
+    border-radius: 10px;
+    background-color: #DDB166;
+    border: 1px solid #DDB166;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-icon {
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+

@@ -1,0 +1,19 @@
+@media (max-width:990px) {
+    .navbar-shrink {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        border-color: transparent;
+        background: rgba(52, 61, 71, 0.8);
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0  rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .navbar-collapse {
+        background-color: rgba(52, 61, 71, 0.7);
+        width: 100%;
+    }
+
+    
+}
+

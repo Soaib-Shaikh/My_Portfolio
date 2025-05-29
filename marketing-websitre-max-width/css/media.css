@@ -1,0 +1,391 @@
+@media (max-width:1280px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  /* card-section */
+
+  .service-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    margin-bottom: 25px;
+    width: 91.66%;
+  }
+
+  /* about-us-section  */
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 91.66%;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .paragraph p {
+    width: 100%;
+  }
+
+  /* portfolio-section */
+  .report-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-img {
+    margin-bottom: 25px;
+    width: 91.66%;
+  }
+
+  /* video-section */
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-img {
+    width: 83.33%;
+  }
+
+  /* customer-section */
+
+  .customer-review-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card {
+    width: 91.66%;
+    margin-bottom: 25px;
+  }
+
+  /* form-section  */
+
+  .form-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-img {
+    margin-top: 30px;
+    width: 91.66%;
+  }
+
+  /* address-section */
+
+  .address-contact-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address-card {
+    width: 91.66%;
+  }
+}
+
+@media (max-width:991px) {
+  /* card-section */
+
+  .service-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .service-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    margin-bottom: 25px;
+    width: 91.5%;
+  }
+
+  /* about-us-section */
+  .image {
+    width: 1200px;
+  }
+
+  .section-2-img {
+    width: 100%;
+  }
+
+  .paragraph p {
+    font-size: 15px;
+  }
+
+  /* portfolio-section */
+
+  .report-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-img {
+    margin-bottom: 25px;
+    width: 80%;
+  }
+
+  /* video-section */
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .section-4-img {
+    width: 83.33%;
+    margin-left: 35px;
+  }
+
+  /* customer-section */
+  .customer-review-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card {
+    margin-bottom: 25px;
+    width: 91.5%;
+  }
+
+  /* form-section */
+  .form-info {
+    text-align: center;
+  }
+
+  .form-img {
+    width: 83.33%;
+    height: 400px;
+  }
+
+  /* address-section */
+  .location {
+   margin-left: 75px;
+  }
+
+  .iframe-map {
+    width: 83.33%;
+  }
+
+  .address-contact-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address-card {
+    width: 91.5%;
+  }
+}
+
+@media (max-width:768px) {
+  /* header-section */
+  nav {
+    display: none;
+  }
+
+  /* about-us-section  */
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    width: 500px;
+  }
+
+  .section-2-img {
+    width: 100%;
+  }
+
+
+  /* idea-plan-section */
+  .ideas-plan-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box h2  {
+    text-align: center;
+  }
+
+  .box p  {
+    text-align: center;
+  }
+
+  /* video-section */
+
+  .video-img {
+    width: 91.5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* form-section */
+
+  .form-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-img {
+    margin-top: 25px;
+  }
+
+  /* address-section */
+  .location {
+    width: 90%;
+  }
+
+  /* footer-section  */
+  .website-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:480px) {
+  /* banner-section */
+
+  .banner h1 {
+    font-size: 50px;
+    line-height: 80px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  /* about-us-section */
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .section-2-img {
+    width: 100%;
+  }
+
+  .paragraph p {
+    text-align: justify; 
+  }
+
+  /* idea-plan-section */
+  .ideas-plan-box {
+    width: 91.66%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+  }
+
+  .hedding {
+    width: 100%;
+  }
+
+  .para1 {
+    font-size: 14px; 
+  }
+
+ 
+  .para2 {
+    font-size: 12px; 
+  }
+
+  .image1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-3-img {
+    width: 75%; 
+  }
+
+  /* video-section  */
+
+ .section-4-img {
+  width: 83.33%;
+ }
+
+  /* form-section */
+  .form-1 {
+    width: 100%;
+  }
+
+  /* address-section */
+  .location {
+    width: 83.33%;
+  }
+
+ 
+
+  /* footer-section */
+  .website-end {
+    text-align: center;
+  }
+  
+}
