@@ -320,6 +320,10 @@ p {
     background-color: #222222;
 }
 
+.card-title{
+    margin: 10px 0 20px  0;
+}
+
 .card-text {
     color: #aaaaaa;
     font-size: 12px;
