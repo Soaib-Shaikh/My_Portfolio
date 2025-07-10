@@ -33,7 +33,7 @@ const handleDelete=(id)=>{
     getData();
 }
 
-function handleEdit(id) {
+const handleEdit = (id) => {
     const empIndex = employees.findIndex(emp => emp.id === id);
     if (empIndex === -1) return;
 
