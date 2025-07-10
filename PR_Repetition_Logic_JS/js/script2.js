@@ -15,18 +15,13 @@ let getData = ()=>{
             <td>${manager}</td>
             <td>
                 <button onclick="handleDelete(${id})" class="btn btn-danger">Delete</button>
+                <button onclick="handleEdit(${id})" class="btn btn-edit">Edit</button>
             </td>
         `
         empTable.appendChild(row);
     })
 };
 
-
-// const handleDelete=(index)=>{
-//     employees.splice(index,1);
-//     localStorage.setItem('employees',JSON.stringify(employees));
-//     getData();
-// }
 
 const handleDelete=(id)=>{
    
@@ -38,5 +33,20 @@ const handleDelete=(id)=>{
     getData();
 }
 
+function handleEdit(id) {
+    const empIndex = employees.findIndex(emp => emp.id === id);
+    if (empIndex === -1) return;
 
+    const emp = employees[empIndex];
+    const ename = prompt("Edit Name:", emp.ename);
+    const salary = prompt("Edit Salary:", emp.salary);
+    const post = prompt("Edit Post:", emp.post);
+    const manager = prompt("Edit Manager:", emp.manager);
+
+    if (ename && salary && post && manager) {
+        employees[empIndex] = { ...emp, ename, salary, post, manager };
+        localStorage.setItem('employees', JSON.stringify(employees));
+        getData();
+    }
+}
 getData();
