@@ -34,19 +34,23 @@ const handleDelete=(id)=>{
 }
 
 const handleEdit = (id) => {
-    const empIndex = employees.findIndex(emp => emp.id === id);
-    if (empIndex === -1) return;
+    let emp = employees[id];
 
-    const emp = employees[empIndex];
-    const ename = prompt("Edit Name:", emp.ename);
-    const salary = prompt("Edit Salary:", emp.salary);
-    const post = prompt("Edit Post:", emp.post);
-    const manager = prompt("Edit Manager:", emp.manager);
+    let empName = prompt("Enter emp name: ",emp.empName);
+    if(empName === null) return;
 
-    if (ename && salary && post && manager) {
-        employees[empIndex] = { ...emp, ename, salary, post, manager };
-        localStorage.setItem('employees', JSON.stringify(employees));
-        getData();
-    }
+    let empSalary = prompt("Enter emp salary: ",emp.empSalary);
+    if(empSalary === null) return;
+
+    let empPost = prompt("Enter emp post: ",emp.empPost);
+    if(empPost === null) return;
+
+    let empManager = prompt("Enter emp manager: ",emp.empManager);
+    if(empManager === null) return;
+   
+
+    employees[id] = {empName, empSalary,empPost,empManager};
+    localStorage.setItem('employees',JSON.stringify(employees));
+    getData();
 }
 getData();
