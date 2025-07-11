@@ -13,15 +13,14 @@ let getData = ()=>{
             <td>${salary}</td>
             <td>${post}</td>
             <td>${manager}</td>
-            <td>
+            <td class="d-flex justify-content-between gap-3">
                 <button onclick="handleDelete(${id})" class="btn btn-danger">Delete</button>
-                <button onclick="handleEdit(${id})" class="btn btn-edit">Edit</button>
+                <button onclick="handleEdit(${id})" class="btn btn-warning">Edit</button>
             </td>
         `
         empTable.appendChild(row);
     })
 };
-
 
 const handleDelete=(id)=>{
    
@@ -33,24 +32,19 @@ const handleDelete=(id)=>{
     getData();
 }
 
-const handleEdit = (id) => {
-    let emp = employees[id];
-
-    let empName = prompt("Enter emp name: ",emp.empName);
-    if(empName === null) return;
-
-    let empSalary = prompt("Enter emp salary: ",emp.empSalary);
-    if(empSalary === null) return;
-
-    let empPost = prompt("Enter emp post: ",emp.empPost);
-    if(empPost === null) return;
-
-    let empManager = prompt("Enter emp manager: ",emp.empManager);
-    if(empManager === null) return;
-   
-
-    employees[id] = {empName, empSalary,empPost,empManager};
+const handleEdit=(id)=>{
+    let emp = employees.find((emp)=>emp.id === id);
+    let empName = prompt('Enter new employee name');
+    let empSalary = prompt('Enter new employee salary');
+    let empPost = prompt('Enter new employee post');
+    let empManager = prompt('Enter new employee manager');
+    emp.ename = empName;
+    emp.salary = empSalary;
+    emp.post = empPost;
+    emp.manager = empManager;
     localStorage.setItem('employees',JSON.stringify(employees));
     getData();
+
 }
+
 getData();
